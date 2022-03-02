@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakteriofágok</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -61,14 +62,16 @@
         </div>
       </nav>
       <div class="container">
-        <h1 id="leiras">Bakteriofágok</h1>
-        <p>Bakteriofágnak (a 'bacteria' és a görög φᾰγεῖν phagein „enni” szavakból) nevezzük a baktériumokat fertőzni képes vírusokat. Gyakran röviden csak fágként említik őket.</p>
-        <p>  A tipikus bakteriofág egy külső, fehérjéből álló kapszidburokból, és a benne lévő örökítőanyagból áll. A genomot alkothatja RNS és DNS is – különféle formákban. A bakteriofágok sokkal kisebbek a gazdaszervezet baktériumoknál.</p>
-        <p>  Becslések szerint a fágok a legszéleskörűbben elterjedt, legváltozatosabb szervezetek a földi bioszférában. A mindenütt jelen lévő fágok megtalálhatók a bakteriális gazdaszervezetek által benépesített minden élőhelyen; a talajban, az állatok bélrendszerében stb. Igen nagy sűrűségben fordulnak elő a tengerben, ahol akár 9·108 virion található a felszíni baktériumszőnyeg minden milliliterében, és a tengeri baktériumok akár 70%-a is fágokkal fertőzött lehet.</p>
-        <h2 id="felf">Felfedezésük</h2>
-        <p>  Bár 1915-ös felfedezésük után még sokáig (1939-ig) láthatatlanok és rejtélyesek maradtak, gyógyászati felhasználásuk ötlete már a tízes évek végétől kezdve jelen volt. Több mint 60 éven keresztül használták őket az antibiotikumokkal történő gyógyítás alternatívájaként a Szovjetunióban és Kelet-Európában. A fágterápia a baktériumok multirezisztens törzseivel szemben, mely utóbbi egyre komolyabb problémát jelent a sztenderd gyógyászatban és hosszú távon többek közt világméretű, tömegpusztító járványok kiújulásával fenyeget, hatásos és számba veendő terápiás eszköznek bizonyulhat.</p>
-        <h2>Részei</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="feher">
+          <h1 id="leiras">Bakteriofágok</h1>
+          <p>Bakteriofágnak (a 'bacteria' és a görög φᾰγεῖν phagein „enni” szavakból) nevezzük a baktériumokat fertőzni képes vírusokat. Gyakran röviden csak fágként említik őket.</p>
+          <p>  A tipikus bakteriofág egy külső, fehérjéből álló kapszidburokból, és a benne lévő örökítőanyagból áll. A genomot alkothatja RNS és DNS is – különféle formákban. A bakteriofágok sokkal kisebbek a gazdaszervezet baktériumoknál.</p>
+          <p>  Becslések szerint a fágok a legszéleskörűbben elterjedt, legváltozatosabb szervezetek a földi bioszférában. A mindenütt jelen lévő fágok megtalálhatók a bakteriális gazdaszervezetek által benépesített minden élőhelyen; a talajban, az állatok bélrendszerében stb. Igen nagy sűrűségben fordulnak elő a tengerben, ahol akár 9·108 virion található a felszíni baktériumszőnyeg minden milliliterében, és a tengeri baktériumok akár 70%-a is fágokkal fertőzött lehet.</p>
+          <h2 id="felf">Felfedezésük</h2>
+          <p>  Bár 1915-ös felfedezésük után még sokáig (1939-ig) láthatatlanok és rejtélyesek maradtak, gyógyászati felhasználásuk ötlete már a tízes évek végétől kezdve jelen volt. Több mint 60 éven keresztül használták őket az antibiotikumokkal történő gyógyítás alternatívájaként a Szovjetunióban és Kelet-Európában. A fágterápia a baktériumok multirezisztens törzseivel szemben, mely utóbbi egyre komolyabb problémát jelent a sztenderd gyógyászatban és hosszú távon többek közt világméretű, tömegpusztító járványok kiújulásával fenyeget, hatásos és számba veendő terápiás eszköznek bizonyulhat.</p>
+          <h2>Részei</h2>
+        </div>
+        <div id="feher" class=" row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-50">
               <img src="img/fej.png" class="card-img-top" alt="fej" title="fej">
@@ -76,9 +79,7 @@
                 <h5 class="card-title">Fej</h5>
                 <p class="card-text">Itt tárolódik a DNS-e a vírusnak. <br> A fejnek jellegyetes szögletes alakja van.</p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
+             
             </div>
           </div>
           <div class="col">
@@ -88,9 +89,7 @@
                 <h5 class="card-title">Farok</h5>
                 <p class="card-text">A komplex bakteriofágok az örökítő anyag baktériumba fecskendezéséhez hipodermális injekciós tű-szerű módszert alkalmaznak. Miután kapcsolódtak a megfelelő receptorhoz, a farokrész fehérjeszálai az alaplemezt közelebb hozzák a sejtfelszínhez. <br> Miután teljesen megtapadtak, a farok összehúzódik, talán a farokban található ATP segítségével, a bakteriális membránon keresztül injektálva az örökítő anyagot a sejtbe.</p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
+              
             </div>
           </div>
           <div class="col">
@@ -100,16 +99,13 @@
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Ez a vírus örökítőanyaga. <br> A fertőzött baktérium ez alapján fogja többszörösíteni a vírust.</p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
         
         
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       </body>
 </html>
